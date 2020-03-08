@@ -1,6 +1,10 @@
 source 'https://rubygems.org'
 ruby '2.6.3'
 
+gem 'sidekiq'
+gem 'sidekiq-failures', '~> 1.0'
+gem 'sinatra'
+
 gem 'bootsnap', require: false
 gem 'devise'
 gem 'jbuilder', '~> 2.0'
